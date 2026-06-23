@@ -16,20 +16,20 @@ print("department:",d)
 print("Total= ",Tam+Eng+Ma+Sc+SS)
 print("Average= ",Tam+Eng+Ma+Sc+SS/5)'''
 
-'''print("hiii,",end=" ")
-print("hello,",end=" ")
-print("how are you?",end=" ")
-print("im abinaya.",end=" ")
-print("im from aec.",end=" ")
-print("and my department is cse.",end=" ")
-print("my first language is tamil",end=" ")
-print("and my second language is english",end=" ")
-print("i studied in vallalar higher secondary school at melacavery,",end=" ")
-print("short time goal is finished my be.cse without nil arrear.",end=" ")
-print("my hobbies is playing games.",end=" ")'''
+'''print("a,",end=" ")
+print("b,",end=" ")
+print("c",end=" ")
+print("d.",end=" ")
+print("e",end=" ")
+print("f",end=" ")
+print("g",end=" ")
+print("h,",end=" ")
+print("i,",end=" ")
+print("j",end=" ")
+print("k",end=" ")'''
 
-a=input("food name:")
-i=int(input("quantity:"))
-price=int(input("f price"))
-tot= i*price
+food=input("food name:")
+qty=int(input("quantity:"))
+price=int(input(" price"))
+tot= qty*price
 print("Bill amt",tot)
