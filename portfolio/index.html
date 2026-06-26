@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abinaya | Magical Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="particles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<div class="stars"></div>
+
+
+<header>
+    <nav>
+        <div class="logo">✨ ABINAYA</div>
+
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+   <h1>Hello, I'm <span>Abinaya</span></h1>
+
+<p class="hero-subtext">
+✨ Dreamer • Creator • Developer ✨
+</p>
+
+<p class="hero-desc">
+I build clean, responsive, and modern websites using HTML, CSS, JavaScript, and Python.
+</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+I am Abinaya, a passionate web developer skilled in HTML, CSS, JavaScript, and Python.<br>
+I enjoy creating clean, responsive, and user-friendly websites with modern UI design.<br>
+My goal is to grow as a professional developer and build impactful real-world projects.
+</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>Java</div>
+        <div>Python</div>
+        <div>SQL</div>
+        <div>GitHub</div>
+        <div>C</div>
+        <div>C++</div>
+        <div>Devops</div>
+        <div>UI & UX</div>
+        
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Responsive magical portfolio with modern UI design.</p>
+        </div>
+
+        <div class="project">
+            <h3>E-Commerce Website</h3>
+            <p>Online shopping platform with clean UI and database integration.</p>
+        </div>
+
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>Python-based system for managing student records easily.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card">
+    <h2>Contact Me</h2>
+
+    <div class="contact-info">
+        <p>📧 imabinaya@email.com</p>
+        <p>📞 +91 8344863251</p>
+
+        <a href="#" class="btn">Download Resume</a>
+    </div>
+</section>
+
+<footer>
+    <p>✨ Created by Abinaya ✨</p>
+</footer>
+
+<!-- JS FOR MOBILE MENU -->
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
